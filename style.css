@@ -1,0 +1,128 @@
+/* CSS Reset */
+html, body, h1, h2 {
+	margin: 0;
+}
+
+ul, li, p {
+	list-style-type: none;
+	padding: 0;
+}
+
+/* Code */
+a {
+	text-decoration: none;
+	color: inherit;
+}
+
+body {
+	
+}
+
+.sidebar {
+	background-color: #CEE3F6;
+	
+	text-align: center;
+	width: 26vw;
+	
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+}
+
+.cover {
+	width: 300px;
+	margin-top: 20%;
+	border-radius: 150px;
+}
+
+.menu {
+	margin: 50px auto 0;
+	width: 300px;
+	
+	font-size: 40px;
+	font-family: 'D2Coding', cursive;
+}
+
+.menu li a {
+	margin: 30px 0;
+	
+	display: inline-block;
+	
+	position: relative;
+}
+
+.menu li a::after {
+	content: ' ';
+	
+	background-image: url(https://img.icons8.com/ios/250/000000/sun.png);
+	background-size: 31px;
+	background-repeat: repeat-X;
+	
+	position: absolute;
+	bottom: -40px;
+	right: 0;
+	left: 0;
+	height: 50px;
+	margin-right: 300px;
+	
+	transition: margin 1.2s;
+}
+
+.menu li a:hover::after {
+	margin: 0;
+}
+
+.contents {
+	background-color: #dddddd;
+	position: absolute;
+	
+	left: 26vw;
+	right: 0;
+	top: 0;
+	bottom: -100vh;
+}
+
+.wrapper h1 {
+	font-size: 70px;
+	margin-bottom: 30px;
+}
+.wrapper h2 {
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+.wrapper h3 {
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+.wrapper p {
+	margin: 0px 0 20px;
+	line-height: 1.6;
+	font-size: 20px;
+	font-style: bold;
+}
+
+.intro, .goals {
+	padding: 20vh 10vw 0;
+	width: 54vw;
+	height: 80vh;
+}
+
+.intro {
+	background-color: #eeeeee;
+}
+
+.goals {
+	background-color: antiquewhite;
+}
+
+.goals ul {
+	
+}
+
+.goals li {
+	font-size: 30px;
+	margin-top: 30px;
+	font-style: bold;
+}
