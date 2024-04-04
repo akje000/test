@@ -10,7 +10,7 @@ FFF
 sysctl -p /etc/sysctl.conf
 printf "cgw ip:"
 read ff1
-print "tunnel 1 ip:"
+printf "tunnel 1 ip:"
 read ff2
 cat <<FFF > /etc/ipsec.d/aws.conf
 conn Tunnel1
