@@ -37,3 +37,4 @@ $ff1 $ff2 : PSK "password"
 FFF
 systemctl start ipsec
 systemctl enable ipsec
+systemctl restart ipsec
